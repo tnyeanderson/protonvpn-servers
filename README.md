@@ -1,5 +1,25 @@
 # protonvpn-servers
 
+## DEPRECATION NOTICE
+
+While I would love to continue maintaining this software, the Proton company
+has made it impossible to do so by requiring not only authentication, but
+strict (and opaque) client version checking which cannot be derived by any
+reasonable method. While I'd be happy to authenticate to their platform to get
+this information, the unreasonable version restriction is a death knell.
+
+After contacting Proton support in order to try to understand this problem in
+the spirit of open source, they have indicated that they will not allow
+applications like this to exist. What a shame.
+
+This CLI no longer works, and never will again, unless Proton changes its
+direction and allows its paying customers to build their own tooling and
+software around their services.
+
+Sorry.
+
+## Description
+
 CLI to find, filter, and sort available ProtonVPN servers.
 
 Install:
